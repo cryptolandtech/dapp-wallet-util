@@ -1,0 +1,24 @@
+{
+    "name": "dapp-wallet-util",
+    "version": "0.1.0",
+    "description": "",
+    "main": "dist/index.js",
+    "source": "src/index.ts",
+    "scripts": {
+        "build": "rm -rf dist && microbundle"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/cryptolandtech/dapp-wallet-util.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/cryptolandtech/dapp-wallet-util/issues"
+    },
+    "homepage": "https://github.com/cryptolandtech/dapp-wallet-util#readme",
+    "devDependencies": {
+        "babel-plugin-transform-builtin-extend": "^1.1.2",
+        "microbundle": "^0.11.0"
+    }
+}
